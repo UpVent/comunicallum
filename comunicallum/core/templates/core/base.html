@@ -32,14 +32,6 @@
         <link rel="shortcut icon" type="image/x-icon" href="{% static 'core/img/favicon.ico' %}"/>
         <!-- Apple icons -->
         <link rel="apple-touch-icon" href="{% static 'core/img/apple-touch-icon.png' %}" />
-        <link rel="apple-touch-icon" sizes="57x57" href="{% static 'core/img/apple-touch-icon-57x57.png' %}" />
-        <link rel="apple-touch-icon" sizes="72x72" href="{% static 'core/img/apple-touch-icon-72x72.png' %}" />
-        <link rel="apple-touch-icon" sizes="76x76" href="{% static 'core/img/apple-touch-icon-76x76.png' %}" />
-        <link rel="apple-touch-icon" sizes="114x114" href="{% static 'core/img/apple-touch-icon-114x114.png' %}" />
-        <link rel="apple-touch-icon" sizes="120x120" href="{% static 'core/img/apple-touch-icon-120x120.png' %}" />
-        <link rel="apple-touch-icon" sizes="144x144" href="{% static 'core/img/apple-touch-icon-144x144.png' %}" />
-        <link rel="apple-touch-icon" sizes="152x152" href="{% static 'core/img/apple-touch-icon-152x152.png' %}" />
-        <link rel="apple-touch-icon" sizes="180x180" href="{% static 'core/img/apple-touch-icon-180x180.png' %}" />
         <!-- Material Bootstrap stylesheet -->
         <link rel="stylesheet" href="{% static 'core/css/bootstrap.min.css' %}" type="text/css" media="screen"/>
         <!-- Custom stylesheet for this page -->
@@ -55,10 +47,39 @@
         <!-- Mobile Web App attributes -->
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="theme-color" content="#007BFC" />
+        <meta name="theme-color" content="#0D0D0D" />
         <meta name="application-name" content="UpVent Technologies">
         <meta name="apple-mobile-web-app-title" content="UpVent Technologies">
         <meta name="apple-mobile-web-app-status-bar-style" content="blue">
     </head>
-    </head>
+    <body>
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+        </header>
+        {% block body %}
+        {% endblock %}
+        {% include 'core/footer.html' %}
+        <!-- Bootstrap 5 script -->
+        <script async defer type="text/javascript" src="{% static 'core/js/bootstrap.bundle.min.js' %}"></script>
+        <!-- schema.org basic script -->
+        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Comunicallum","url":"https://comunicallum.com","address":"Irapuato, Guanajuato","sameAs":["https://facebook.com/Comunicallum","https://www.instagram.com/comunicallum/"]}</script>
+        <!-- custom scripts -->
+        {% block js %}
+        {% endblock %}
+    </body>
 </html>
