@@ -19,4 +19,6 @@ from django.urls import path, include
 urlpatterns = [
     path('comunicadmin/', admin.site.urls),
     path('captcha/', include('captcha.urls')),
+    # Main Site URLs
+    path('', include('core.urls'), name='index'),
 ]
