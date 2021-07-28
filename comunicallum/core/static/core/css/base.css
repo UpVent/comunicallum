@@ -17,3 +17,12 @@ body {
 .bg-gradient-light-white {
     background-image: linear-gradient(180deg,#f9fbfd 0,#fff)
 }
+
+.bg-light {
+    background-color: #f9fbfd!important
+}
+
+.btn-success-soft {
+    background-color: rgba(66,186,150,.1);
+    color: #42ba96
+}
