@@ -129,7 +129,7 @@
         transform: translateY(1.3125rem);
     }
     50% {
-        transform: translateY(7.9125rem);
+        transform: translateY(-2.9125rem);
     }
     100%{
         transform: translateY(1.3125rem);
