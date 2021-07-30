@@ -76,6 +76,25 @@
         <script async defer type="text/javascript" src="{% static 'core/js/bootstrap.bundle.min.js' %}"></script>
         <!-- schema.org basic script -->
         <script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Comunicallum","url":"https://comunicallum.com","address":"Irapuato, Guanajuato","sameAs":["https://facebook.com/Comunicallum","https://www.instagram.com/comunicallum/"]}</script>
+        <!-- GetButton.io widget -->
+        <script type="text/javascript">
+         (function () {
+             var options = {
+                 facebook: "108264074873815", // Facebook page ID
+                 whatsapp: "+52 462 288 8642", // WhatsApp number
+                 call_to_action: "¡Envíanos un mensaje!", // Call to action
+                 button_color: "#000000", // Color of button
+                 position: "left", // Position may be 'right' or 'left'
+                 order: "facebook,whatsapp", // Order of buttons
+                 pre_filled_message: "¡Hola me comunico desde tu página web!", // WhatsApp pre-filled message
+             };
+             var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+             var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+             s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+             var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+         })();
+        </script>
+        <!-- /GetButton.io widget -->
         <!-- custom scripts -->
         {% block js %}
         {% endblock %}
