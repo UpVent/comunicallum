@@ -20,7 +20,7 @@ class ContactForm(forms.ModelForm):
                     'class': 'form-control',
                     'placeholder': 'Nombre Completo',
                     'required': True,
-                    'id': 'first_name'
+                    'id': 'full_name'
                 }
             ),
 
