@@ -61,14 +61,14 @@
             </a>
 
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">Agencia</a></li>
-                <li><a href="#" class="nav-link px-2 link-secondary">Servicios</a></li>
-                <li><a href="#" class="nav-link px-2 link-secondary">Blog</a></li>
-                <li><a href="#" class="nav-link px-2 link-secondary">Portafolio</a></li>
+                <li> {% if request.path == '/' %} <a href="#agency" {% else %} href="{% url 'index' %}#agency" {% endif %} class="nav-link fs-5 px-2 link-dark">Agencia</a></li>
+                <li> {% if request.path == '/' %} <a href="#services" {% else %} href="{% url 'index' %}#services" {% endif %} class="nav-link fs-5 px-2 link-dark">Servicios</a></li>
+                <li> <a href="#" class="nav-link fs-5 px-2 link-dark">Blog</a></li>
+                <li> <a href="#" class="nav-link fs-5 px-2 link-dark">Portafolio</a></li>
             </ul>
 
             <div class="col-md-3 p-1 text-end">
-                <button type="button" class="btn btn-lg btn-warning bg-gradient shadow-sm">Contáctanos <i class="bi bi-envelope"></i></button>
+                <a {% if request.path == '/' %} href="#contact" {% else %} href="{% url 'index' %}#contact" {% endif %}  type="button" class="btn btn-lg btn-warning bg-gradient shadow-sm">Contáctanos <i class="bi bi-envelope"></i></a>
             </div>
         </header>
         {% block body %}
