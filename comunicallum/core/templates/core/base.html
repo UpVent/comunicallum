@@ -61,10 +61,10 @@
             </a>
 
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li> {% if request.path == '/' %} <a href="#agency" {% else %} href="{% url 'index' %}#agency" {% endif %} class="nav-link fs-5 px-2 link-dark">Agencia</a></li>
-                <li> {% if request.path == '/' %} <a href="#services" {% else %} href="{% url 'index' %}#services" {% endif %} class="nav-link fs-5 px-2 link-dark">Servicios</a></li>
-                <li> <a href="#" class="nav-link fs-5 px-2 link-dark">Blog</a></li>
-                <li> <a href="#" class="nav-link fs-5 px-2 link-dark">Portafolio</a></li>
+                <li><a {% if request.path == '/' %} href="#agency" {% else %} href="{% url 'index' %}#agency" {% endif %} class="nav-link fs-5 px-2 link-dark">Agencia</a></li>
+                <li><a {% if request.path == '/' %} href="#services" {% else %} href="{% url 'index' %}#services" {% endif %} class="nav-link fs-5 px-2 link-dark">Servicios</a></li>
+                <li><a href="#" class="nav-link fs-5 px-2 link-dark">Blog</a></li>
+                <li><a href="{% url 'portfolio:home' %}" class="nav-link fs-5 px-2 link-dark">Portafolio</a></li>
             </ul>
 
             <div class="col-md-3 p-1 text-end">
