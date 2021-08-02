@@ -23,7 +23,8 @@ urlpatterns = [
     path('captcha/', include('captcha.urls')),
     # Main Site URLs
     path('', include('core.urls'), name='index'),
-    path('portfolio/', include('portfolio.urls', namespace="portfolio"), name='portfolio')
+    path('portfolio/', include('portfolio.urls', namespace="portfolio"), name='portfolio'),
+    path('blog/', include('blog.urls', namespace="blog"), name='blog')
 ]
 
 # Special URL's for development

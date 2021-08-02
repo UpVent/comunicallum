@@ -1,0 +1,110 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% load humanize %}
+
+{% block metatags %}
+    <!-- Primary Meta Tags -->
+    <title>UpVent - {{post.title}}.</title>
+    <meta name="title" content="{{post.title}}">
+    <meta name="description" content="{{post.description}}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="twitter:site" content="@UpVentMX">
+    <meta property="twitter:creator" content="@UpVentMX">
+    <meta property="og:title" content="{{post.title}}">
+    <meta property="og:description" content="{{post.description}}">
+    <meta property="og:image" content="https://upvent.codes{{post.image.url}}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="@UpVentMX">
+    <meta property="twitter:title" content="{{post.title}}">
+    <meta property="twitter:description" content="{{post.description}}">
+    <meta property="twitter:image" content="https://upvent.codes/{{post.image.url}}">
+{% endblock %}
+
+{% block body %}
+
+    <div id="intro" class="p-5 text-center bg-light">
+        <h1 class="mb-0 h4">{{post.title}}</h1>
+    </div>
+
+    <main class="mt-4 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mb-4">
+                    <section class="border-bottom mb-4">
+                        <img src="{{post.image.url}}" class="img-fluid shadow-sm rounded mb-4" alt="Portada del post" loading="lazy"/>
+
+                        <div class="row align-items-center mb-4">
+                            <div class="col-lg-6 text-center text-lg-start mb-3 m-lg-0">
+                                <img src="{% static 'core/img/upvent-logo.png' %}" class="rounded shadow me-2"
+                                     width="15%" alt="Imágen del autor" loading="lazy" />
+                                <span>Fecha de publicación: <u class="text-muted">{{post.created_on | naturaltime}}</u> por</span>
+                                <a href="https://upvent.codes" class="badge rounded-pill bg-primary text-white text-decoration-none">UpVent</a>
+                                <hr />
+                                <span>Última actualización: <u class="text-muted">{{post.updated_on | naturaltime}}</u></span>
+                            </div>
+
+                            <div class="col-lg-6 text-center text-lg-end">
+
+                                <span class="text-muted">Compartir: </span>
+
+                                <a href="https://facebook.com/UpVentMX" class="btn btn-sm btn-primary rounded-circle btn-facebook ml-2">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/UpVentMX" class="btn btn-sm btn-primary rounded-circle btn-twitter ml-2">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                                <a href="https://github.com/UpVent" class="btn btn-sm btn-primary rounded-circle btn-github ml-2">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#comentarios" class="btn btn-sm btn-primary rounded-circle ml-2">
+                                    <i class="bi bi-chat-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <article>
+                        <p>{{post.content|safe}}</p>
+                    </article>
+                    <hr />
+                    <section>
+                        <div class="container">
+                            <div id="s9comments"></div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <section class="sticky-top" style="top: 80px;">
+                        <section class="text-center border-bottom pb-4 mb-4">
+                            <h1>{{ post.side_title }}</h1>
+                            <div class="container mb-4">
+                                <img alt="Imágen patrocinada" src="{{ post.side_img.url }}" class="img-fluid" loading="lazy" />
+                                <a href="{{ post.side_button_url }}" target="_blank" rel="noopener noreferrer">
+                                </a>
+                            </div>
+                            <h5>{{ post.side_text_title }}</h5>
+
+                            <p>{{ post.site_text }}</p>
+                            <a role="button" class="btn btn-primary" href="{{ post.side_button_url }}" target="_blank" rel="noopener noreferrer">{{ post.side_button }}</a>
+                        </section>
+                        <section class="text-center">
+                            <h5 class="mb-4">{{ post.side_video_title }}</h5>
+
+                            <div class="embed-responsive embed-responsive-16by9 shadow-4-strong">
+                                <iframe class="embed-responsive-item rounded" sandbox="allow-same-origin allow-scripts allow-popups" src="{{ post.side_video }}" allowfullscreen></iframe>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    {% block js %}
+        <script async defer src="https://social9.com/comments/js/s9comments.js"></script>
+    {% endblock %}
+{% endblock %}
