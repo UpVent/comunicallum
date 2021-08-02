@@ -1,0 +1,7 @@
+.jumbotron {
+    background: url('/static/core/img/dots.gif') rgba(250, 250, 250, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 500px;
+}
