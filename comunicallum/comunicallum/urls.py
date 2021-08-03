@@ -21,11 +21,16 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('comunicadmin/', admin.site.urls),
     path('captcha/', include('captcha.urls')),
+    path('ckeditor/', include('ckeditor_uploader.urls')),
     # Main Site URLs
     path('', include('core.urls'), name='index'),
     path('portfolio/', include('portfolio.urls', namespace="portfolio"), name='portfolio'),
     path('blog/', include('blog.urls', namespace="blog"), name='blog')
 ]
+
+admin.site.site_header = "Administración de Comunicallum"
+admin.site.index_title = "Administración"
+admin.site.site_title = "Comunicallum"
 
 # Special URL's for development
 if settings.DEBUG:
