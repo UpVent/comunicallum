@@ -145,6 +145,20 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'public/static/')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
+# CKEditor configurations
+CKEDITOR_UPLOAD_PATH = 'posts/'
+CKEDITOR_IMAGE_BACKEND = "pillow"
+CKEDITOR_CONFIGS = {
+    'default':{
+        'toolbar': None,
+    }
+}
+# Use pillow to compress uploaded images
+CKEDITOR_FORCE_JPEG_COMPRESSION = True
+
+# Allow only images to be uploaded
+CKEDITOR_ALLOW_NONIMAGE_FILES = False
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
