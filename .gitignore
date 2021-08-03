@@ -1,5 +1,6 @@
 # Ignore media folder
 comunicallum/media/
+comunicallum/public/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
