@@ -65,6 +65,7 @@
                 <li><a {% if request.path == '/' %} href="#services" {% else %} href="{% url 'index' %}#services" {% endif %} class="nav-link fs-5 px-2 link-dark">Servicios</a></li>
                 <li><a href="{% url 'blog:home' %}" class="nav-link fs-5 px-2 link-dark">Blog</a></li>
                 <li><a href="{% url 'portfolio:home' %}" class="nav-link fs-5 px-2 link-dark">Portafolio</a></li>
+                <li><a href="{% url 'gallery' %}" class="nav-link fs-5 px-2 link-dark">Galería</a></li>
             </ul>
 
             <div class="col-md-3 p-1 text-end">

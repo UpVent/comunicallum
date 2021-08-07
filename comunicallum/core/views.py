@@ -11,6 +11,7 @@ from django.conf import settings
 
 from .forms import ContactForm
 from .models import Contact
+from .models import Image
 
 # Import exceptions from smtp lib
 from smtplib import (
@@ -20,7 +21,6 @@ from smtplib import (
     )
 
 def index(request):
-
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
@@ -91,3 +91,7 @@ def index(request):
     else:
         form = ContactForm
         return render(request, "core/index.html", {'form': form})
+
+def gallery(request):
+    images = Image.objects.all()
+    return render(request, "core/gallery.html", {'images': images})
