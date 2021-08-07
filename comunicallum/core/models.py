@@ -67,9 +67,9 @@ class Image(models.Model):
     )
 
     image = models.ImageField(
+        verbose_name="Imagen a mostrar",
+        help_text="Se recomiendan imagenes rectangulares",
         upload_to = "gallery",
-        height_field=202,
-        width_field=360,
     )
 
     created_on = models.DateTimeField(
