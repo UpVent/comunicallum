@@ -56,3 +56,30 @@ class Contact(models.Model):
 
     def __str__(self):
         return f'{self.email} | {self.reason}'
+
+# Image model
+class Image(models.Model):
+    name = models.CharField(
+        verbose_name="Nombre de la imagen",
+        max_length=60,
+        default="",
+        help_text="Nombre de la fotografia a mostrar. (Solo es informativo para el administrador)"
+    )
+
+    image = models.ImageField(
+        upload_to = "gallery",
+        height_field=202,
+        width_field=360,
+    )
+
+    created_on = models.DateTimeField(
+        verbose_name="Fecha de registro",
+        help_text="Fecha en la que se registró la imágen en el sistema",
+        auto_now_add=True
+    )
+
+    updated_on = models.DateTimeField(
+        verbose_name="Fecha de actualización",
+        help_text="Fecha en la que la imágen se actualizó por última vez",
+        auto_now_add=True
+    )
