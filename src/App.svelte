@@ -35,6 +35,16 @@
 <!-- Index Jumbotron component -->
 <IndexJumbotron/>
 
+<!-- Features component -->
+
+<!-- Portfolio Showcase Component -->
+
+<!-- Allies Component -->
+
+<!-- Services Component -->
+
+<!-- Contact Component -->
+
 <!-- Footer component -->
 <Footer/>
 
