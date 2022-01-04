@@ -1,30 +1,36 @@
 <script>
-	export let name;
+    import Meta from './Meta.svelte';
+    import Navbar from './Navbar.svelte';
+    import Footer from './Footer.svelte';
+
+    /* GetButton.io widget */
+    (function () {
+        var options = {
+            facebook: "108264074873815", // Facebook page ID
+            whatsapp: "+52 462 288 8642", // WhatsApp number
+            call_to_action: "¡Envíanos un mensaje!", // Call to action
+            button_color: "#000000", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+            order: "facebook,whatsapp", // Order of buttons
+            pre_filled_message: "¡Hola me comunico desde tu página web!", // WhatsApp pre-filled message
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
 </script>
 
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
+<svelte:head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</svelte:head>
 
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
+<!-- SEO component -->
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
 
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-</style>
+<!-- Navbar component -->
+<Navbar/>
+
+<!-- Footer component -->
+<Footer/>
+
