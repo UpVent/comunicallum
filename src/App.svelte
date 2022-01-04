@@ -1,6 +1,7 @@
 <script>
     import Meta from './Meta.svelte';
     import Navbar from './Navbar.svelte';
+    import IndexJumbotron from './IndexJumbotron.svelte';
     import Footer from './Footer.svelte';
 
     /* GetButton.io widget */
@@ -26,10 +27,13 @@
 </svelte:head>
 
 <!-- SEO component -->
-
+<Meta/>
 
 <!-- Navbar component -->
 <Navbar/>
+
+<!-- Index Jumbotron component -->
+<IndexJumbotron/>
 
 <!-- Footer component -->
 <Footer/>
