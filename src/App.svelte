@@ -6,7 +6,8 @@
     import Plans from './Plans.svelte';
     import Medal from './Medal.svelte';
     import Allies from './Allies.svelte';
-
+    import Services from './Services.svelte';
+    import Contact from './Contact.svelte';
 
     /* GetButton.io widget */
     (function () {
@@ -48,13 +49,11 @@
 <!-- Allies Logos Component -->
 <Allies/>
 
-<!-- Portfolio Showcase Component -->
-
-<!-- Allies Component -->
-
 <!-- Services Component -->
+<Services/>
 
 <!-- Contact Component -->
+<Contact/>
 
 <!-- Footer component -->
 <Footer/>

@@ -10,7 +10,6 @@
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li><a class="nav-link fs-5 px-2 link-dark">Agencia</a></li>
         <li><a class="nav-link fs-5 px-2 link-dark">Servicios</a></li>
-        <li><a class="nav-link fs-5 px-2 link-dark">Blog</a></li>
         <li><a class="nav-link fs-5 px-2 link-dark">Portafolio</a></li>
         <li><a class="nav-link fs-5 px-2 link-dark">Galería</a></li>
     </ul>
