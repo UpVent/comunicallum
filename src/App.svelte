@@ -4,6 +4,7 @@
     import IndexJumbotron from './IndexJumbotron.svelte';
     import Footer from './Footer.svelte';
     import Plans from './Plans.svelte';
+    import Medal from './Medal.svelte';
 
     /* GetButton.io widget */
     (function () {
@@ -39,7 +40,8 @@
 <!-- Plans Component -->
 <Plans/>
 
-<!-- Features component -->
+<!-- Medal component -->
+<Medal/>
 
 <!-- Portfolio Showcase Component -->
 
