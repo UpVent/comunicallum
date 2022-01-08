@@ -5,6 +5,8 @@
     import Footer from './Footer.svelte';
     import Plans from './Plans.svelte';
     import Medal from './Medal.svelte';
+    import Allies from './Allies.svelte';
+
 
     /* GetButton.io widget */
     (function () {
@@ -42,6 +44,9 @@
 
 <!-- Medal component -->
 <Medal/>
+
+<!-- Allies Logos Component -->
+<Allies/>
 
 <!-- Portfolio Showcase Component -->
 
