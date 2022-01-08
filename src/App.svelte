@@ -3,6 +3,7 @@
     import Navbar from './Navbar.svelte';
     import IndexJumbotron from './IndexJumbotron.svelte';
     import Footer from './Footer.svelte';
+    import Plans from './Plans.svelte';
 
     /* GetButton.io widget */
     (function () {
@@ -34,6 +35,9 @@
 
 <!-- Index Jumbotron component -->
 <IndexJumbotron/>
+
+<!-- Plans Component -->
+<Plans/>
 
 <!-- Features component -->
 
