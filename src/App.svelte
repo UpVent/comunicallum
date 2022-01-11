@@ -8,6 +8,7 @@
     import Allies from './Allies.svelte';
     import Services from './Services.svelte';
     import Contact from './Contact.svelte';
+    import TopBtn from './TopBtn.svelte';
 
     /* GetButton.io widget */
     (function () {
@@ -58,3 +59,8 @@
 <!-- Footer component -->
 <Footer/>
 
+
+
+
+<!-- Goto top button (keep this all the way down) -->
+<TopBtn/>
