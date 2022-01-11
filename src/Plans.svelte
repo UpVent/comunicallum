@@ -1,3 +1,7 @@
+<script>
+	import Instagram from 'svelte-instagram';
+</script>
+
 <section class="py-8 py-md-11 mt-5 mb-5 border-bottom">
       <div class="container">
         <div class="row">
@@ -39,5 +43,19 @@
             </p>
           </div>
         </div>
-      </div>
+    </div>
+
+    <div class="container mt-2 mb-2">
+        <h2>¡Conócenos más!</h2>
+	    <Instagram
+		    horizontalScroll={true}
+		    q={12}
+		    showTitle={false}
+		    size={200}
+		    spacing={2}
+		    title="Últimas publicaciones de Comunicallum"
+		    username="comunicallum"
+	    />
+    </div>
+
 </section>
