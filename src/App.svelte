@@ -9,6 +9,7 @@
     import Services from './Services.svelte';
     import Contact from './Contact.svelte';
     import TopBtn from './TopBtn.svelte';
+    import Socials from './Socials.svelte';
 
     /* GetButton.io widget */
     (function () {
@@ -43,6 +44,9 @@
 
 <!-- Plans Component -->
 <Plans/>
+
+<!-- Follow us on our socials! -->
+<Socials/>
 
 <!-- Medal component -->
 <Medal/>
