@@ -1,9 +1,30 @@
 <script>
-    let services = [{
-        image: '',
-        name: 'cosa',
-        description: '',
-    }]
+        let services = [{
+                image: ''
+                name: 'Jupiter',
+                text: ''
+            },
+            {
+                image: ''
+                name: 'Jupiter',
+                text: ''
+            },
+            {
+                image: ''
+                name: 'Jupiter',
+                text: ''
+            },
+            {
+                image: ''
+                name: 'Jupiter',
+                text: ''
+            },
+            {
+                image: ''
+                name: 'Jupiter',
+                text: ''
+            },
+        ];
 </script>
 
 <section class="container px-4 py-5">
