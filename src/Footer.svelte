@@ -20,107 +20,17 @@
   <div class="container p-4">
     <section class="mb-4">
       <!-- Facebook -->
-      <a class="btn btn-primary border-0 m-1 fbutton" href="#!" role="button"><i class="bi bi-facebook text-white"></i></a>
-      <!-- Twitter -->
-      <a class="btn btn-primary border-0 m-1 tbutton" href="#!" role="button"><i class="bi bi-twitter text-white"></i></a>
-      <!-- Google -->
-      <a class="btn btn-primary border-0 m-1 gbutton" href="#!" role="button"><i class="bi bi-google text-white"></i></a>
+      <a class="btn btn-primary border-0 m-1 fbutton" href="https://www.facebook.com/Comunicallum/" role="button"><i class="bi bi-facebook text-white"></i></a>
       <!-- Instagram -->
       <a class="btn btn-primary border-0 m-1 ibutton" href="https://www.instagram.com/comunicallum/" role="button"><i class="bi bi-instagram text-white"></i></a>
-      <!-- Linkedin -->
-      <a class="btn btn-primary border-0 m-1 lbutton" href="#!" role="button"><i class="bi bi-linkedin text-white"></i></a>
-      <!-- Github -->
-      <a class="btn btn-primary border-0 m-1 ghbutton" href="#!" role="button"><i class="bi bi-github text-white"></i></a>
     </section>
 
     <section class="mb-4">
         <p>
-            Desarrollamos tu marca u organización a través de una #comunicaciónestratégica digital 🇲🇽🎬📸.
+            Desarrollamos tu marca u organización a través de una <a class="text-info" href="https://www.instagram.com/explore/tags/comunicaci%C3%B3nestrat%C3%A9gica/">#comunicaciónestratégica</a> digital 💻.
             <br />
             En nuestra agencia de marketing digital, gestionamos diversos proyectos de investigación de mercados, marketing, publicidad, estrategias de comunicación, desarrollo web, y proyectos de innovación.
         </p>
-    </section>
-
-    <section class="">
-      <!--Grid row-->
-      <div class="row">
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </section>
   </div>
   <div class="text-center p-3 upvent-mask">
@@ -130,4 +40,9 @@
   <div class="text-center p-3 upvent-mask">
       Hecho con <i class="bi bi-heart-fill text-danger"></i> por <a class="text-white" href="https://upvent.codes/">UpVent Technologies</a>
   </div>
+    <div class="container text-center text-light small mt-5 border-top">
+        <p>
+            El <a href="https://github.com/UpVent/comunicallum">código fuente</a> de esta página se encuentra bajo la <a href="https://www.gnu.org/licenses/agpl-3.0.html">Licencia Pública General de Affero (GNU) versión 3</a>. Excepto donde se indique lo <a href="https://creativecommons.org/policies#license">contrario</a>, el trabajo escrito, blogs, opiniones y parte del contenido visual se encuentra bajo la <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Licencia Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)</a>
+        </p>
+    </div>
 </footer>
