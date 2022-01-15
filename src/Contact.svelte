@@ -1,5 +1,26 @@
 <script>
     let contact = 'images/contact.svg';
+
+    // Form handler script
+    var form = document.getElementById("my-form");
+    function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = "Thanks for your submission!";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! There was a problem submitting your form"
+      });
+    form.addEventListener("submit", handleSubmit)
+    }
 </script>
 
 <section class="container col-xl-10 col-xxl-8 px-4 py-5 bg-contact">
@@ -10,29 +31,14 @@
             <img class="img-fluid" src={contact} alt="" />
         </div>
         <div class="col-md-10 mx-auto col-lg-5" data-aos="flip-left">
-
-            <form class="p-4 p-md-5 border rounded-3 bg-light" action="" method="POST" id="form">
-                <div class="form-floating mb-3">
-                    <label for="full_name">Nombre Completo</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <label for="phone">Teléfono</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <label for="email">Correo</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <div class="form-floating mb-3">
-                        <label for="floatingarea">Mensaje</label>
-                    </div>
-                </div>
-                <div class="form-floating mb-3">
-                    <div class="form-floating mb-3">
-                    </div>
-                </div>
-                <button id="btn-enviar" class="w-100 btn btn-lg btn-primary bg-gradient" type="submit">Enviar <i class="bi bi-envelope"></i></button>
-                <hr class="my-4">
-                <small class="text-muted">Los correos pueden tardar hasta 24 horas en responderse.</small>
+            <form class="border-0 shadow rounded m-2 p-2 form" id="my-form" action="https://formspree.io/f/xqknepzp" method="POST">
+                <label class="form-label lead">Email:</label>
+                <input class="form-control" type="email" name="email" />
+                <label class="form-label lead">Mensaje:</label>
+                <input class="form-control" type="text" name="message" />
+                <hr>
+                <button class="btn btn-success mt-2 lead" id="my-form-button">Enviar <i class="bi bi-envelope"></i></button>
+                <p id="my-form-status"></p>
             </form>
         </div>
     </div>
