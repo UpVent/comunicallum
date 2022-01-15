@@ -1,15 +1,15 @@
 <script>
+    import Allies from './Allies.svelte';
+    import Contact from './Contact.svelte';
+    import Footer from './Footer.svelte';
+    import IndexJumbotron from './IndexJumbotron.svelte';
+    import Medal from './Medal.svelte';
     import Meta from './Meta.svelte';
     import Navbar from './Navbar.svelte';
-    import IndexJumbotron from './IndexJumbotron.svelte';
-    import Footer from './Footer.svelte';
     import Plans from './Plans.svelte';
-    import Medal from './Medal.svelte';
-    import Allies from './Allies.svelte';
     import Services from './Services.svelte';
-    import Contact from './Contact.svelte';
-    import TopBtn from './TopBtn.svelte';
     import Socials from './Socials.svelte';
+    import TopBtn from './TopBtn.svelte';
 
     /* GetButton.io widget */
     (function () {
