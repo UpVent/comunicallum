@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-md-8">
                 <h1 class="display-3 border-bottom">¡Síguenos en nuestras redes sociales!</h1>
-                <p class="lead">Subimos contenido de manera regular, aportando contenido de valor para nuestra comunidad y transmitiendo la luz de todos los eventos a los que vamos</p>
+                <p class="lead">Subimos contenido de manera regular, aportando contenido de valor para nuestra comunidad y transmitiendo la luz de todos los eventos a los que vamos.</p>
                 <a class="btn btn-primary text-white border-0" style="background-color: #3b5998;" href="https://www.facebook.com/Comunicallum/" role="button"><i class="bi bi-facebook"></i> Facebook</a>
 
                 <a class="btn btn-primary text-white border-0" style="background-color: #ac2bac;" href="https://www.instagram.com/comunicallum/" role="button"><i class="bi bi-instagram"></i> Instagram</a>
