@@ -7,6 +7,11 @@
         transform: rotate(20deg);
     }
 
+    .img-spot:hover {
+        transform: rotate(380deg);
+        transition: all 1s;
+    }
+
     .btn:hover {
         transform: scale(1.1) perspective(1px);
         transition: all 500ms;
@@ -26,7 +31,7 @@
             </div>
             <div class="col-md-4">
                 <a href="https://www.instagram.com/comunicallum/" target="_blank">
-                    <img class="img-fluid rounded shadow img-spot" src={screenshot} alt=""/>
+                    <img class="img-fluid rounded shadow img-spot" src={screenshot} alt="Screenshot comunicallum"/>
                 </a>
             </div>
         </div>
