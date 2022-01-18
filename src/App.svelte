@@ -45,9 +45,6 @@
 <!-- Plans Component -->
 <Plans/>
 
-<!-- Follow us on our socials! -->
-<Socials/>
-
 <!-- Medal component -->
 <Medal/>
 
@@ -60,11 +57,11 @@
 <!-- Contact Component -->
 <Contact/>
 
+<!-- Follow us on our socials! -->
+<Socials/>
+
 <!-- Footer component -->
 <Footer/>
-
-
-
 
 <!-- Goto top button (keep this all the way down) -->
 <TopBtn/>
