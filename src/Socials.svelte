@@ -6,6 +6,11 @@
     .img-spot {
         transform: rotate(20deg);
     }
+
+    .btn:hover {
+        transform: scale(1.1) perspective(1px);
+        transition: all 500ms;
+    }
 </style>
 
 <section class="mt-2 mb-2">
@@ -14,9 +19,9 @@
             <div class="col-md-8">
                 <h1 class="display-3 border-bottom">¡Síguenos en nuestras redes sociales!</h1>
                 <p class="lead">Subimos contenido de forma regular, así como coberturas de eventos, tips y mucho más.</p>
-                <a class="btn btn-primary text-white border-0" style="background-color: #3b5998;" href="https://www.facebook.com/Comunicallum/" role="button"><i class="bi bi-facebook"></i></a>
+                <a class="btn btn-primary text-white border-0" style="background-color: #3b5998;" href="https://www.facebook.com/Comunicallum/" role="button"><i class="bi bi-facebook"></i> Facebook</a>
 
-                <a class="btn btn-primary text-white border-0" style="background-color: #ac2bac;" href="https://www.instagram.com/comunicallum/" role="button"><i class="bi bi-instagram"></i></a>
+                <a class="btn btn-primary text-white border-0" style="background-color: #ac2bac;" href="https://www.instagram.com/comunicallum/" role="button"><i class="bi bi-instagram"></i> Instagram</a>
 
             </div>
             <div class="col-md-4">
