@@ -31,11 +31,11 @@
             <img class="img-fluid" src={contact} alt="" />
         </div>
         <div class="col-md-10 mx-auto col-lg-5">
-            <form class="border-0 mt-5 p-4 shadow rounded m-2 p-2 form" id="my-form" action="https://formspree.io/f/xqknepzp" method="POST">
+            <form class="border-0 mt-5 p-3 shadow rounded m-2 p-2 form" id="my-form" action="https://formspree.io/f/xqknepzp" method="POST">
                 <label class="form-label lead">Email:</label>
-                <input class="form-control" type="email" name="email" />
+                <input class="mt-2 mb-2 form-control" type="email" name="email" />
                 <label class="form-label lead">Mensaje:</label>
-                <textarea class="form-control" type="text" name="message" />
+                <textarea class="mt-2 mb-2 form-control" type="text" name="message" />
                 <hr>
                 <button class="btn btn-success mt-2 lead" id="my-form-button">Enviar <i class="bi bi-envelope"></i></button>
                 <p id="my-form-status"></p>
