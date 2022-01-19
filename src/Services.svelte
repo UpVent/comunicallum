@@ -49,7 +49,7 @@
     }
 </style>
 
-<section class="mt-5 mb-5">
+<section class="mt-5 mb-5" id="services">
     <h2 class="display-5 fw-bold pb-2 text-center border-bottom">Nuestros servicios</h2>
     <div class="container mt-2">
         <div class="row">
