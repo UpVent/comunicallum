@@ -31,7 +31,7 @@
             </div>
             <div class="col-md-4">
                 <a href="https://www.instagram.com/comunicallum/" target="_blank">
-                    <img class="img-fluid rounded shadow img-spot" src={screenshot} alt="Screenshot comunicallum"/>
+                    <img width="160" height="220" class="m-2 img-fluid rounded shadow img-spot" src={screenshot} alt="Screenshot comunicallum"/>
                 </a>
             </div>
         </div>
