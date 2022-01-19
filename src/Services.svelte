@@ -42,9 +42,16 @@
     ];
 </script>
 
+<style>
+    .card:hover {
+        transform: scale(1.1) perspective(1px);
+        transition: all 500ms;
+    }
+</style>
+
 <section class="mt-5 mb-5">
     <h2 class="display-5 fw-bold pb-2 text-center border-bottom">Nuestros servicios</h2>
-    <div class="container">
+    <div class="container mt-2">
         <div class="row">
             <div class="col-sm-1 col-md-12">
                 <div class="row">
