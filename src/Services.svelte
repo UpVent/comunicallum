@@ -34,6 +34,11 @@
             name: 'Elaboración de Páginas Web',
             text: 'Posicionamos tu negocio en internet, no necesitas experiencia ¡Nosotros nos encargamos de tener tu página web en menos de 24 horas!'
         },
+        {
+            image: 'images/servicio8.png',
+            name: 'Creación de Contenido',
+            text: 'Creamos, producimos y levantamos de forma profesional tu contenido audiovisual (imagen y vídeo) en redes sociales y otras plataformas.'
+        },
     ];
 </script>
 
