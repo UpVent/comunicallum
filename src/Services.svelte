@@ -38,7 +38,7 @@
 </script>
 
 <section class="mt-5 mb-5">
-    <h2 class="display-5 fw-bold pb-2 border-bottom">Nuestros servicios</h2>
+    <h2 class="display-5 fw-bold pb-2 text-center border-bottom">Nuestros servicios</h2>
     <div class="container">
         <div class="row">
             <div class="col-sm-1 col-md-12">
