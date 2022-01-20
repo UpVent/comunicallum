@@ -14,6 +14,13 @@
     let logo13 = 'images/logo13.png';
 </script>
 
+<style>
+    .img-fluid:hover {
+        transform: scale(1.2) perspective(1px);
+        transition: all 500ms;
+    }
+</style>
+
 <section class="py-6 py-md-8 border-bottom">
       <div class="container">
         <div class="row align-items-center justify-content-center">
