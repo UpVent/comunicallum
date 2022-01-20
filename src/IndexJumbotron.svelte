@@ -14,7 +14,7 @@
             </h1>
 
             <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
-              Marketing Digital Deportivo y Estrategia continua para empresas.
+              Marketing Digital Deportivo y Comunicación Estratégica continua para empresas.
             </p>
             <div class="text-center text-md-start">
               <a href="overview.html" class="btn btn-primary btn-lg bg-gradient shadow me-1">
