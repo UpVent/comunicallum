@@ -37,7 +37,7 @@
         {
             image: 'images/servicio8.png',
             name: 'Creación de Contenido',
-            text: 'Creamos, producimos y levantamos de forma profesional tu contenido audiovisual (imagen y vídeo) en redes sociales y otras plataformas.'
+            text: 'Creamos, producimos y levantamos de forma profesional tu contenido audiovisual (imagen y vídeo) para redes sociales y otras plataformas.'
         },
     ];
 </script>
