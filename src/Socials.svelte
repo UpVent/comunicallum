@@ -1,8 +1,8 @@
-<script charset="utf-8">
+<script>
     let screenshot = 'images/screen.jpeg';
 </script>
 
-<style type="text/css" media="screen">
+<style>
     .img-spot {
         transform: rotate(20deg);
     }
@@ -25,12 +25,10 @@
                 <h1 class="display-3 border-bottom">¡Síguenos en nuestras redes sociales!</h1>
                 <p class="lead">Subimos contenido de manera regular, aportando contenido de valor para nuestra comunidad y transmitiendo la luz de todos los eventos a los que vamos.</p>
                 <a class="btn btn-primary text-white border-0" style="background-color: #3b5998;" href="https://www.facebook.com/Comunicallum/" role="button"><i class="bi bi-facebook"></i> Facebook</a>
-
                 <a class="btn btn-primary text-white border-0" style="background-color: #ac2bac;" href="https://www.instagram.com/comunicallum/" role="button"><i class="bi bi-instagram"></i> Instagram</a>
-
             </div>
             <div class="col-md-4">
-                <a href="https://www.instagram.com/comunicallum/" target="_blank">
+                <a rel="noreferrer" href="https://www.instagram.com/comunicallum/" target="_blank">
                     <img width="160" height="220" class="m-2 img-fluid rounded shadow img-spot" src={screenshot} alt="Screenshot comunicallum"/>
                 </a>
             </div>

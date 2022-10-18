@@ -1,17 +1,17 @@
 <script>
-    let logo1 = 'images/logo1.png';
-    let logo2 = 'images/logo2.png';
-    let logo3 = 'images/logo3.jpg';
-    let logo4 = 'images/logo4.png';
-    let logo5 = 'images/logo5.png';
-    let logo6 = 'images/logo6.png';
-    let logo7 = 'images/logo7.png';
-    let logo8 = 'images/logo8.png';
-    let logo9 = 'images/logo9.png';
-    let logo10 = 'images/logo10.png';
-    let logo11 = 'images/logo11.png';
-    let logo12 = 'images/logo12.png';
-    let logo13 = 'images/logo13.png';
+    const logo1 = 'images/logo1.png';
+    const logo2 = 'images/logo2.png';
+    const logo3 = 'images/logo3.jpg';
+    const logo4 = 'images/logo4.png';
+    const logo5 = 'images/logo5.png';
+    const logo6 = 'images/logo6.png';
+    const logo7 = 'images/logo7.png';
+    const logo8 = 'images/logo8.png';
+    const logo9 = 'images/logo9.png';
+    const logo10 = 'images/logo10.png';
+    const logo11 = 'images/logo11.png';
+    const logo12 = 'images/logo12.png';
+    const logo13 = 'images/logo13.png';
 </script>
 
 <style>

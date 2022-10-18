@@ -1,18 +1,6 @@
-<script>
-    import { Styles } from 'sveltestrap';
-    import { Icon } from 'sveltestrap';
-
-    let year = new Date().getFullYear();
-</script>
-
 <style>
     .fbutton {background-color: #3b5998}
-    .tbutton {background-color: #55acee}
-    .gbutton {background-color: #dd4b39}
     .ibutton {background-color: #ac2bac}
-    .lbutton {background-color: #0082ca}
-    .ghbutton {background-color: #333333}
-
     .upvent-mask {background-color: rgba(0, 0, 0, 0.2)}
 </style>
 
@@ -34,7 +22,7 @@
     </section>
   </div>
   <div class="text-center p-3 upvent-mask">
-      © {year} Copyright:
+      © {new Date().getFullYear()} Copyright:
     <a class="text-white" href="https://comunicallum.com/">comunicallum.com</a>
   </div>
   <div class="text-center p-3 upvent-mask">
