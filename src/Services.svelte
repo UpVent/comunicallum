@@ -58,7 +58,7 @@
                     {#each services as service}
                         <div class="col-md-4 mb-3">
                             <div class="card border-0 rounded-3 shadow">
-                                <img class="img-fluid card-img-top" alt="100%x280" src={service.image}>
+                                <img class="img-fluid card-img-top" height="234" width="351" alt="100%x280" src={service.image}>
                                     <div class="card-body">
                                         <h4 class="card-title text-muted border-bottom">{service.name}</h4>
                                         <p class="card-text text-muted small">{service.text}</p>
