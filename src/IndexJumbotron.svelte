@@ -17,7 +17,7 @@
               Marketing Digital Deportivo y Comunicación Estratégica continua para empresas.
             </p>
             <div class="text-center text-md-start">
-              <a href="overview.html" class="btn btn-primary btn-lg bg-gradient shadow me-1">
+              <a href="#services" class="btn btn-primary btn-lg bg-gradient shadow me-1">
                 Ver Portafolio <i class="bi bi-arrow-right d-none d-md-inline ms-3"></i>
               </a>
             </div>

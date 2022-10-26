@@ -11,7 +11,6 @@
         <li><a href="#agency" class="nav-link fs-5 px-2 link-dark">Agencia</a></li>
         <li><a href="#clients" class="nav-link fs-5 px-2 link-dark">Clientes</a></li>
         <li><a href="#services" class="nav-link fs-5 px-2 link-dark">Servicios</a></li>
-        <li><a href="#portfolio" class="nav-link fs-5 px-2 link-dark">Portafolio</a></li>
     </ul>
 
     <div class="col-md-3 p-1 text-end">

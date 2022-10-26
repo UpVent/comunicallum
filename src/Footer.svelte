@@ -1,6 +1,7 @@
 <style>
     .fbutton {background-color: #3b5998}
     .ibutton {background-color: #ac2bac}
+    .tbutton {background-color: #333333;}
     .upvent-mask {background-color: rgba(0, 0, 0, 0.2)}
 </style>
 
@@ -11,6 +12,8 @@
       <a class="btn btn-primary border-0 m-1 fbutton" href="https://www.facebook.com/Comunicallum/" role="button"><i class="bi bi-facebook text-white"></i></a>
       <!-- Instagram -->
       <a class="btn btn-primary border-0 m-1 ibutton" href="https://www.instagram.com/comunicallum/" role="button"><i class="bi bi-instagram text-white"></i></a>
+      <!-- TikTok -->
+      <a class="btn btn-primary border-0 m-1 tbutton" href="https://www.tiktok.com/@comunicallum" role="button"><i class="bi bi-tiktok text-white"></i></a>
     </section>
 
     <section class="mb-4">
@@ -25,7 +28,7 @@
       © {new Date().getFullYear()} Copyright:
     <a class="text-white" href="https://comunicallum.com/">comunicallum.com</a>
   </div>
-  <div class="text-center p-3 upvent-mask">
+  <div class="text-center p-3">
       Hecho con <i class="bi bi-heart-fill text-danger"></i> por <a class="text-white" href="https://upvent.codes/">UpVent Technologies</a>
   </div>
     <div class="container text-center text-light small mt-5 border-top">
